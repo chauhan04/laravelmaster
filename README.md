@@ -10,7 +10,11 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 Just download the code and setup in your server accessible directory. 
 For Example, create 'laramaster' at /var/www/html/laramaster and add downloaded code
 
+Copy the .env.example to .env file
 Update the database configuration in your .env file
+
+generate application key using below command
+php artisan key:generate
 
 Goto your project root directory and run the 'composer install' to install dependencies
 
